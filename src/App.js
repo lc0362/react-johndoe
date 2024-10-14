@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div >
       {/* Header commun à toutes les pages */}
       <Header />
 

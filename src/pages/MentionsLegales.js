@@ -2,8 +2,8 @@ import React from 'react';
 
 function MentionsLegales() {
   return (
-    <div>
-      <h1>Mentions Legales</h1>
+    <div className="px-3">
+      <h1>Mentions Légales</h1>
       <p>lorem</p>
     </div>
   );
