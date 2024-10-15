@@ -32,7 +32,7 @@ function Footer() {
             <p className="title fw-bold">Liens utiles</p>
             <ul className="list-unstyled ">
               <li><span className="text-primary fw-bold">&gt;</span><a href="/" className='text-black'> Accueil</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/"className='text-black'> À propos</a></li>
+              <li><span className="text-primary fw-bold">&gt;</span><a href="/#about" className='text-black'> À propos</a></li>
               <li><span className="text-primary fw-bold">&gt;</span><a href="/services" className='text-black'> Services</a></li>
               <li><span className="text-primary fw-bold">&gt;</span><a href="/contact" className='text-black'> Me contacter</a></li>
               <li><span className="text-primary fw-bold">&gt;</span><a href="/mentionslegales" className='text-black'> Mentions Légales</a></li>

@@ -5,7 +5,11 @@ function MentionsLegales() {
     
     
     <div className="px-3">
-      <h1>Mentions légales</h1>
+     
+      <h1 className='text-uppercase text-center my-3'>Mentions légales</h1>
+      <div className='bg-primary mb-5 w-25 mx-auto' style={{ height: '5px' }}></div>
+
+      
       <div className="accordion" id="accordionExample">
         
         {/* Section 1: Éditeur du site */}
