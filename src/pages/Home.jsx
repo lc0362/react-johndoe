@@ -40,20 +40,26 @@ function Home() {
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          padding: '150px 0',
+          padding: '200px 0',
           textAlign: 'center',
           color: 'white'
         }}
       >
-        <h1 className='fw-bold'>Bonjour, je suis John Doe</h1>
-        <p className='fw-bold'>Développeur web full stack</p>
-        <button type="button" className="btn btn-primary">En savoir plus</button>
+        <h1 className='fw-bold' id='h1-home'>Bonjour, je suis John Doe</h1>
+        <p className='fw-bold' id='h1p-home'>Développeur web full stack</p>
+        <button 
+        type="button" 
+        className="btn btn-primary"
+        onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
+>
+  En savoir plus
+</button>
       </section>
       
-      <div className="py-4 px-md-5">
+      <div className="py-4 px-md-5 pt-lg-5">
         <div className="shadow-lg p-3 mb-5 bg-body-tertiary rounded row p-md-5">
-        <div className="col-12 col-md-6">
-          <h2 className="border-bottom border-primary border-3 py-3 fw-bold">À propos</h2>
+        <div className="col-12 col-sm-6">
+          <h2 className="border-bottom border-primary border-3 py-3 fw-bold" id="about">À propos</h2>
           <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. 
             Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.</p>
           <p>Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.</p>
@@ -61,7 +67,7 @@ function Home() {
          
           </div>
 
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-sm-6">
           <img src="/john-doe-about.jpg" className="img-fluid rounded" alt="John Doe, homme en train de travailler dans un bureau, concentré sur son ordinateur" title="John Doe développeur web"/>
           <h3 className="py-2 fw-bold">Mes compétences</h3>
           <ProgressBar skill="HTML5" percentage="90" color="bg-danger" ariaLabel="Barre de 90% pour le HTML5" />
