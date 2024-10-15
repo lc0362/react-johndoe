@@ -9,7 +9,6 @@ import MentionsLegales from './pages/MentionsLegales';
 import Realisations from './pages/Realisations';  
 import Services from './pages/Services';  
 
-import logo from './logo.svg'; // à modifier
 import './App.css';
 
 function App() {
