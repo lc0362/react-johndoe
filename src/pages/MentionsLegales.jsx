@@ -19,30 +19,36 @@ function MentionsLegales() {
             <div className="accordion-body">
               <p className="title fw-bold">John Doe</p>
               
-              {/* Icone location et adresse */}
-              <div>
-                <div className="d-inline">
-                  <img src="/location-pin.png" alt="Icône Location" title="Location pin icons created by Pixel perfect - Flaticon" width="15" height="auto" />
-                </div>
-                <div className="d-inline"> 40 Rue Laure Diebold <div>69009 Lyon, France</div></div>
-              </div>
+              {/* Adresse */}
+              <div className="d-flex">
+  <div>
+    <img src="/location-pin.png" alt="Icône Location" title="Location pin icons created by Pixel perfect - Flaticon" width="15" height="auto" />
+  </div>
+  <div className="ms-2">
+    <address>
+      40 Rue Laure Diebold 
+      <div>69009 Lyon, France</div>
+    </address>
+  </div>
+</div>
+
               
-              {/* Icone téléphone */}
-              <div>
-                <div className="d-inline">
+             {/* Téléphone */}
+             <div className="d-flex ">
+                <div>
                   <img src="/smartphone.png" alt="Icône Téléphone" title="Smartphone icons created by Roundicons - Flaticon" width="15" height="auto" />
                 </div>
-                <div className="d-inline">
+                <div className="ms-2">
                   <a href="tel:0620304050">06 20 30 40 50</a>
                 </div>
               </div>
               
-              {/* Icone email */}
-              <div>
-                <div className="d-inline">
+              {/* Email */}
+              <div className="d-flex">
+                <div>
                   <img src="/email.png" alt="Icône Email" title="Email icons created by Freepik - Flaticon" width="15" height="auto"/>
                 </div>
-                <div className="d-inline">
+                <div className="ms-2">
                   <a href="mailto:john.doe@gmail.com"> john.doe@gmail.com</a>
                 </div>
               </div>
@@ -50,6 +56,7 @@ function MentionsLegales() {
           </div>
         </div>
 
+        {/* Section 2: Hébergeur */}
         <div className="accordion-item">
     <h2 className="accordion-header" id="headingTwo">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -58,10 +65,28 @@ function MentionsLegales() {
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
+
+
+      <p className='fw-bold'>
+        Always Data
+        </p>
+                <p> 91 rue du Faubourg Saint-Honoré 
+                  <div>75008 Paris</div>
+                </p>
+       {/* Lien */}
+       <div className="d-flex">
+                <div>
+                  <img src="/world.png" alt="Icône Monde" title="Langues icônes créées par Freepik - Flaticon" width="15" height="auto"/>
+                </div>
+                <div className="ms-2">
+                  <a href="https://www.alwaysdata.com" target="_blank" rel="noopener noreferrer"> www.alwaysdata.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Section 3: Crédits */}
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingThree">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -70,8 +95,14 @@ function MentionsLegales() {
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      <p className='fw-bold'>
+        Crédits
+        </p>
+                <p> Site développé par John Doe, étudiant du CEF.</p>
+                <p> Les images libres de droit sont issues du site <a href="https://pixabay.com/fr/" target="_blank" rel="noopener noreferrer"> Pixabay</a>.</p>
+
+
+                 </div>
     </div>
   </div>
 </div>
