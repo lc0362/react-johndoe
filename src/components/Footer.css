@@ -1,5 +1,10 @@
+.footer {
+  font-size: small;
+  
+}
+
 .title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 a {
@@ -11,3 +16,5 @@ a img:hover  {
     transform: scale(1.1); 
     opacity: 0.8; 
   }
+
+  
