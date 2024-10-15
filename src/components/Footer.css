@@ -7,14 +7,13 @@
     font-size: 1.1rem;
 }
 
-a {
-    color: inherit; 
-    text-decoration: none; 
-  }
+#icon-sm:hover  {
+  transform: scale(1.1); 
+  opacity: 0.8; ;
+}
 
-a img:hover  {
-    transform: scale(1.1); 
-    opacity: 0.8; 
-  }
+address {
+  margin: 0;
+}
 
   
