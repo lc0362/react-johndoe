@@ -2,7 +2,10 @@ import React from 'react';
 
 function MentionsLegales() {
   return (
+    
+    
     <div className="px-3">
+      <h1>Mentions légales</h1>
       <div className="accordion" id="accordionExample">
         
         {/* Section 1: Éditeur du site */}
