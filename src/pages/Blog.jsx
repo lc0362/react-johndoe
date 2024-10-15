@@ -1,10 +1,43 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Blog() {
+  const [backgroundImage, setBackgroundImage] = useState('/banner-mobile.jpg');
+
+  const handleResize = () => {
+    const width = window.innerWidth;
+    if (width < 768) {
+      setBackgroundImage('/banner-mobile.jpg'); 
+    } else if (width < 992) {
+      setBackgroundImage('/banner-tablette.jpg'); 
+    } else {
+      setBackgroundImage('/banner.jpg'); 
+    }
+  };
+
+  useEffect(() => {
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
-    <div  className="px-3">
-      <h1>Blog</h1>
-      <p>Bienvenue sur le blog !</p>
+    <div>
+      <section 
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          padding: '50px',
+          textAlign: 'center',
+          color: 'white'
+        }}
+      >
+      </section>
+
+      <h1 className='text-uppercase text-center my-3'>Blog</h1>
+      <p className='text-center '>Retrouvez ici quelques articles sur le développement web.</p>
+      <div className='bg-primary mb-5 w-25 mx-auto' style={{ height: '5px' }}></div>
+      <p>lorem</p>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 
 function Home() {
-  const [backgroundImage, setBackgroundImage] = useState('/banner-mobile.jpg');
+  const [backgroundImage, setBackgroundImage] = useState('/hero-bg-mobile.jpg');
 
   const handleResize = () => {
     const width = window.innerWidth;
