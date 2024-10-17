@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import MentionsLegales from './pages/MentionsLegales';  
 import Realisations from './pages/Realisations';  
 import Services from './pages/Services';  
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 import './App.css';
 
@@ -26,7 +27,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/realisations" element={<Realisations />} />
       </Routes>
-
+      <ScrollToTopButton />
       {/* Footer commun à toutes les pages */}
       <Footer />
     </div>
