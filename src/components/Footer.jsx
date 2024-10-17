@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-      <footer className="footer bg-light py-2" >
+      <footer className="footer bg-light py-2 mt-5" >
         
 <div className=" row px-3  mt-4  mx-md-5 mx-sm-2" >
          {/* Section 1: John Doe */}

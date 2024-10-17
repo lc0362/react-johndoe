@@ -57,7 +57,7 @@ function Home() {
       </section>
       
       <div className="py-4 px-md-5 pt-lg-5">
-        <div className="shadow-lg p-3 mb-5 bg-body-tertiary rounded row p-md-5">
+        <div className="shadow-lg p-3 bg-body-tertiary rounded row p-md-5">
         <div className="col-12 col-sm-6">
           <h2 className="border-bottom border-primary border-3 py-3 fw-bold" id="about">À propos</h2>
           <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. 
