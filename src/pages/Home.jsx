@@ -33,7 +33,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div className='home'>
 
       {/* Bloc image */}
       <div 

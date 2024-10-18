@@ -22,17 +22,17 @@ function Footer() {
             <div className="d-flex py-3">
             <div>
   <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="icon-sm">
-  <FontAwesomeIcon icon={faSquareGithub} style={{ width: '40px', height: '40px' }} alt="Icône GitHub"/>
+  <FontAwesomeIcon icon={faSquareGithub} style={{ width: '40px', height: '40px'}} />
   </Link>
   </div>
   <div>
   <a href="https://www.x.com" title="Twitter" className="px-3 icon-sm">
-  <FontAwesomeIcon icon={faSquareTwitter} style={{ width: '40px', height: '40px' }} alt="Icône Twitter"/>
+  <FontAwesomeIcon icon={faSquareTwitter} style={{ width: '40px', height: '40px'}} />
   </a>
   </div>
   <div>
   <a href="https://www.linkedin.com" title="LinkedIn" className="icon-sm" >
-  <FontAwesomeIcon icon={faLinkedin} style={{ width: '40px', height: '40px' }} alt="Icône LinkedIn"/>
+  <FontAwesomeIcon icon={faLinkedin} style={{ width: '40px', height: '40px' }} />
   </a>
   </div>
 </div>

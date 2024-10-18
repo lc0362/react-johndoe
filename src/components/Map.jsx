@@ -11,7 +11,7 @@ function Map() {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        className='container mt-5'
+        className='container mt-3'
         title="Adresse de Joe Doe à Lyon"
       ></iframe>
     </div>
