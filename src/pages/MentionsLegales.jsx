@@ -31,7 +31,9 @@ function MentionsLegales() {
               
               {/* Adresse */}
               <div className="d-flex"> 
+              <div>
   <FontAwesomeIcon icon={faLocationDot} style={{ width: '15px', height: '15px' }} alt="Icône Location" />
+  </div>
      <div className="ms-2">
     <address>
       40 Rue Laure Diebold 
@@ -43,7 +45,9 @@ function MentionsLegales() {
               
              {/* Téléphone */}
              <div className="d-flex ">
+             <div>
                   <FontAwesomeIcon icon={faMobile} style={{ width: '15px', height: '15px' }} alt="Icône Mobile" /> 
+                  </div>
                 <div className="ms-2">
                   <a href="tel:0620304050">06 20 30 40 50</a>
                 </div>
@@ -51,7 +55,9 @@ function MentionsLegales() {
               
               {/* Email */}
               <div className="d-flex">
+              <div>
               <FontAwesomeIcon icon={faEnvelope} style={{ width: '15px', height: '15px' }} alt="Icône Email" /> 
+              </div>
                 <div className="ms-2">
                   <a href="mailto:john.doe@gmail.com"> john.doe@gmail.com</a>
                 </div>
