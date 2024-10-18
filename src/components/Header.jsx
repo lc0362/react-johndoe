@@ -13,19 +13,19 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-lg-auto">
         <li className="nav-item">
-        <Link className="nav-link" to="/">Accueil</Link>
+        <Link className="nav-link mx-1" to="/">Accueil</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/services">Services</Link>
+          <Link className="nav-link mx-1" to="/services">Services</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/realisations">Réalisations</Link>
+          <Link className="nav-link mx-1" to="/realisations">Réalisations</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/blog">Blog</Link>
+          <Link className="nav-link mx-1" to="/blog">Blog</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/contact">Me contacter</Link>
+          <Link className="nav-link mx-1" to="/contact">Me contacter</Link>
         </li>
       </ul>
     </div>
