@@ -34,19 +34,23 @@ function Home() {
 
   return (
     <div>
-      <section 
-        id="section-one"
+
+      {/* Bloc image */}
+      <div 
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          position: 'relative',
           padding: '200px 0',
           textAlign: 'center',
           color: 'white'
         }}
       >
-        <h1 id='h1-home'>Bonjour, je suis John Doe</h1>
-        <p id='h1p-home'>Développeur web full stack</p>
+        <div className="overlay"></div>
+        <div className="text-content">
+        <h1>Bonjour, je suis John Doe</h1>
+        <h2 className='py-3'>Développeur web full stack</h2>
         <button 
         type="button" 
         className="btn btn-primary"
@@ -54,12 +58,15 @@ function Home() {
 >
   En savoir plus
 </button>
-      </section>
-      
+      </div>
+      </div>
+
+{/* Bloc blanc */}
+
       <div className="py-4 px-md-5 pt-lg-5">
         <div className="shadow-lg p-3 bg-body-tertiary rounded row p-md-5">
         <div className="col-12 col-sm-6">
-          <h2 className="border-bottom border-primary border-3 py-3 text-1e1e1e" id="about">À propos</h2>
+          <h3 className="border-bottom border-primary border-3 py-3 text-1e1e1e" id="about">À propos</h3>
           <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. 
             Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.</p>
           <p>Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.</p>
