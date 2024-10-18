@@ -20,17 +20,21 @@ function Footer() {
             <div>Téléphone : <a href="tel:0620304050" className='text-444'>06 20 30 40 50</a></div>
             {/* icones réseaux sociaux */}
             <div className="d-flex py-3">
-  <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="px-2 icon-sm">
+            <div>
+  <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="icon-sm">
   <FontAwesomeIcon icon={faSquareGithub} style={{ width: '40px', height: '40px' }} alt="Icône GitHub"/>
   </Link>
-
-  <a href="https://www.x.com" title="Twitter" className="px-2 icon-sm">
+  </div>
+  <div>
+  <a href="https://www.x.com" title="Twitter" className="px-3 icon-sm">
   <FontAwesomeIcon icon={faSquareTwitter} style={{ width: '40px', height: '40px' }} alt="Icône Twitter"/>
   </a>
-
-  <a href="https://www.linkedin.com" title="LinkedIn" className="px-2 icon-sm" >
+  </div>
+  <div>
+  <a href="https://www.linkedin.com" title="LinkedIn" className="icon-sm" >
   <FontAwesomeIcon icon={faLinkedin} style={{ width: '40px', height: '40px' }} alt="Icône LinkedIn"/>
   </a>
+  </div>
 </div>
 
           </div>

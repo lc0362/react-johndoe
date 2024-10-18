@@ -93,7 +93,9 @@ function Contact() {
 
                 {/* Adresse */}
                 <div className="d-flex mt-3">
+                <div>
                 <FontAwesomeIcon icon={faLocationDot} style={{ width: '15px', height: '15px' }} alt="Icône Location" />   
+                </div>
                   <div className="ms-2">
                     <address>
                       40 Rue Laure Diebold, 69009 Lyon, France
@@ -103,7 +105,9 @@ function Contact() {
 
                 {/* Téléphone */}
                 <div className="d-flex">
+                  <div>
                   <FontAwesomeIcon icon={faMobile} style={{ width: '15px', height: '15px' }} alt="Icône Mobile" />   
+                  </div>
                    <div className="ms-2">
                     <a href="tel:0620304050" className="text-444">
                       06 20 30 40 50

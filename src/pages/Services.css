@@ -1,4 +1,7 @@
-  .service-bloc:hover .bi {
-    fill: #cdeaf8; 
-  }
-  
+.icon {
+  color: #0069ff;
+}
+
+.service-bloc:hover .icon {
+  color: #cdeaf8;
+}
