@@ -1,5 +1,5 @@
 import React from 'react';
-import Map from './Map';
+import Map from '../components/Map';
 
 function Contact() {
   return (
@@ -28,9 +28,9 @@ function Contact() {
         ></div>
 
         {/* Bloc blanc */}
-        <div className="container mt-3 mb-5 pb-5 shadow-lg bg-white rounded px-md-3 px-lg-5 position-relative" style={{ zIndex: 1 }}>
+        <div className="container mt-3 mb-5 pb-5 shadow-lg bg-white rounded px-md-3 px-lg-5 position-relative text-444" style={{ zIndex: 1 }}>
           {/* Titre "Me contacter" */}
-          <h1 className="text-uppercase text-center pt-5">Me contacter</h1>
+          <h1 className="text-uppercase text-center pt-5 text-1e1e1e">Me contacter</h1>
           <p className="text-center px-5">
                 Pour me retrouver en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.
               </p>
@@ -42,7 +42,7 @@ function Contact() {
              
 
               <div className="py-3 px-2">
-                <h2 className="fw-bold" id="form">
+                <h2 className="fw-bold text-1e1e1e" id="form">
                   Formulaire de contact
                 </h2>
                 <div className="bg-primary" style={{ height: '2px' }}></div>
@@ -83,7 +83,7 @@ function Contact() {
             {/* Bloc coordonnées */}
             <div className="col-md-6">
               <div className="py-3 px-2">
-                <h2 className="fw-bold" id="form">
+                <h2 className="fw-bold text-1e1e1e" id="form">
                   Mes coordonnées
                 </h2>
                 <div className="bg-primary" style={{ height: '2px' }}></div>
@@ -118,7 +118,7 @@ function Contact() {
                     />
                   </div>
                   <div className="ms-2">
-                    <a href="tel:0620304050" className="text-dark">
+                    <a href="tel:0620304050" className="text-444">
                       06 20 30 40 50
                     </a>
                   </div>

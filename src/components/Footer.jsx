@@ -12,7 +12,7 @@ function Footer() {
             <p className="title fw-bold">John Doe</p>
             <address><div>40 Rue Laure Diebold</div>
             <div>69009 Lyon, France</div></address>
-            <div>Téléphone : <a href="tel:0620304050" className='text-black'>06 20 30 40 50</a></div>
+            <div>Téléphone : <a href="tel:0620304050" className='text-444'>06 20 30 40 50</a></div>
             {/* icones réseaux sociaux */}
             <div className="d-flex py-3">
   <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="px-2">
@@ -32,11 +32,11 @@ function Footer() {
           <div className="col-sm-6 col-lg-3 py-1">
             <p className="title fw-bold">Liens utiles</p>
             <ul className="list-unstyled ">
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/" className='text-black'> Accueil</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/#about" className='text-black'> À propos</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/services" className='text-black'> Services</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/contact" className='text-black'> Me contacter</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/mentionslegales" className='text-black'> Mentions Légales</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/" className='text-444'> Accueil</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/#about" className='text-444'> À propos</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/services" className='text-444'> Services</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/contact" className='text-444'> Me contacter</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/mentionslegales" className='text-444'> Mentions Légales</Link></li>
             </ul>
           </div>
 
@@ -44,9 +44,9 @@ function Footer() {
           <div className="col-sm-6 col-lg-3 py-1">
             <p className="title fw-bold">Mes dernières réalisations</p>
             <ul className="list-unstyled">
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-black'> Fresh Food</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-black'> Restaurant Akira</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-black'> Espace bien-être</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-444'> Fresh Food</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-444'> Restaurant Akira</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-444'> Espace bien-être</Link></li>
             </ul>
           </div>
 
@@ -54,9 +54,9 @@ function Footer() {
           <div className="col-sm-6 col-lg-3 py-1">
             <p className="title fw-bold">Mes derniers articles</p>
             <ul className="list-unstyled">
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-black'> Coder son site en HTML/CSS</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-black'> Vendre ses produits sur le web</Link></li>
-              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-black'> Se positionner sur Google</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-444'> Coder son site en HTML/CSS</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-444'> Vendre ses produits sur le web</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-444'> Se positionner sur Google</Link></li>
             </ul>
           
         </div>
