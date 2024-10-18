@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom'; 
 import Header from './components/Header';  
 import Footer from './components/Footer';  
-import ApiGithub from './components/ApiGithub';  
 import Home from './pages/Home'; 
 import Blog from './pages/Blog';  
 import Contact from './pages/Contact';  
@@ -16,11 +15,8 @@ import './App.css';
 
 function App() {
   return (
-    <div >
-      {/* Header commun à toutes les pages */}
+    <div className='body-style' >
       <Header />
-
-      {/* Gestion des routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
@@ -31,7 +27,6 @@ function App() {
         <Route path="/github" element={<GitHub />} />
       </Routes>
       <ScrollToTopButton />
-      {/* Footer commun à toutes les pages */}
       <Footer />
     </div>
   );

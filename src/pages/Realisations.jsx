@@ -34,7 +34,7 @@ function Realisations() {
       >
       </div>
 
-      <h1 className='text-uppercase text-center my-3'>Portfolio</h1>
+      <h1 className='text-uppercase text-center my-3 text-1e1e1e'>Portfolio</h1>
       <p className='text-center '>Voici quelques-unes de mes réalisations.</p>
       <div className='bg-primary mb-5 w-25 mx-auto' style={{ height: '5px' }}></div>
       <div className="container text-center  ">
@@ -42,7 +42,7 @@ function Realisations() {
 
         {/* Bloc 1 */}
         <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/portfolio/fresh-food.jpg" 
        className="card-img-top" 
        alt="Photo d'un panier de légumes"
@@ -59,7 +59,7 @@ function Realisations() {
 </div>
  {/* Bloc 2 */}
  <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/portfolio/restaurant-japonais.jpg" 
        className="card-img-top" 
        alt="Photo de sushis et makis"
@@ -76,7 +76,7 @@ function Realisations() {
 </div>
 {/* Bloc 3 */}
 <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/portfolio/espace-bien-etre.jpg" 
        className="card-img-top" 
        alt="Image zen avec des galets"

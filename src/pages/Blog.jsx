@@ -34,7 +34,7 @@ function Blog() {
       >
       </section>
 
-      <h1 className='text-uppercase text-center my-3'>Blog</h1>
+      <h1 className='text-uppercase text-center my-3 text-1e1e1e'>Blog</h1>
       <p className='text-center '>Retrouvez ici quelques articles sur le développement web.</p>
       <div className='bg-primary mb-5 w-25 mx-auto' style={{ height: '5px' }}></div>
       
@@ -43,7 +43,7 @@ function Blog() {
 
         {/* Bloc 1 */}
         <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/blog/coder.jpg" 
        className="card-img-top" 
        alt="Photo d'un écran avec du code html"
@@ -60,7 +60,7 @@ function Blog() {
 </div>
  {/* Bloc 2 */}
  <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/blog/croissance.jpg" 
        className="card-img-top" 
        alt="Photo de pots de monnaie avec des plantes"
@@ -77,7 +77,7 @@ function Blog() {
 </div> 
 {/* Bloc 3 */}
         <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/blog/google.jpg" 
        className="card-img-top" 
        alt="Photo d'un ordinateur portable ouvert sur Google.com"
@@ -94,7 +94,7 @@ function Blog() {
 </div> 
 {/* Bloc 4 */}
         <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/blog/screens.jpg" 
        className="card-img-top" 
        alt="Photo d'un ordinateur fixe, portable et d'une tablette"
@@ -111,7 +111,7 @@ function Blog() {
 </div>
 {/* Bloc 5 */}
 <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/blog/seo.jpg" 
        className="card-img-top" 
        alt="Image sur fond bleu avec des mots clés SEO en blanc"
@@ -128,7 +128,7 @@ function Blog() {
 </div>     
 {/* Bloc 6 */}
 <div className='col-12 col-md-6 col-lg-4 px-1 pb-3'>
-      <div className="card w-100" style={{ width: '18rem' }}>
+      <div className="card w-100 text-444" style={{ width: '18rem' }}>
   <img src="/blog/technos.png" 
        className="card-img-top" 
        alt="Mosaique de logos"

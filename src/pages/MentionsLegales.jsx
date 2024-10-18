@@ -13,7 +13,7 @@ function MentionsLegales() {
       <div className="accordion" id="accordionExample">
         
         {/* Section 1: Éditeur du site */}
-        <div className="accordion-item">
+        <div className="accordion-item text-444">
           <h2 className="accordion-header" id="headingOne">
             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Éditeur du site
@@ -61,7 +61,7 @@ function MentionsLegales() {
         </div>
 
         {/* Section 2: Hébergeur */}
-        <div className="accordion-item">
+        <div className="accordion-item text-444">
     <h2 className="accordion-header" id="headingTwo">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Hébergeur
@@ -91,7 +91,7 @@ function MentionsLegales() {
         </div>
 
         {/* Section 3: Crédits */}
-  <div className="accordion-item">
+  <div className="accordion-item text-444">
     <h2 className="accordion-header" id="headingThree">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         Crédits

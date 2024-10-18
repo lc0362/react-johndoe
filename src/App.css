@@ -1,9 +1,29 @@
+.body-style {
+  background-color: #EEE;
+  color: #444;
+  
+  strong, b {
+      color: #000000;
+    }
+
+   
+}
+
+.text-1e1e1e {
+      color:#1e1e1e;
+    }
+.text-444{
+  color: #444;
+  
+  }
+
+
 a:hover  {
-  color: rgba(255, 255, 255, 0.8) !important; /* Blanc avec transparence de 0.8 appliqué sur tous les liens du site */
+  color: rgba(255, 255, 255, 0.8) !important; /* Blanc avec transparence de 0.8 appliqué sur tous les liens du site au survol */
 }
 
 a {
-  text-decoration: none; /* Tous les liens du site ne sont pas soulignés*/
+  text-decoration: none; /* Les liens du site ne sont pas soulignés*/
 }
 
 
