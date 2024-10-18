@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-johndoe/static/css/main.e11ae489.css",
+    "main.js": "/react-johndoe/static/js/main.bb5e15b7.js",
+    "static/js/453.923cd8be.chunk.js": "/react-johndoe/static/js/453.923cd8be.chunk.js",
+    "index.html": "/react-johndoe/index.html",
+    "main.e11ae489.css.map": "/react-johndoe/static/css/main.e11ae489.css.map",
+    "main.bb5e15b7.js.map": "/react-johndoe/static/js/main.bb5e15b7.js.map",
+    "453.923cd8be.chunk.js.map": "/react-johndoe/static/js/453.923cd8be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e11ae489.css",
+    "static/js/main.bb5e15b7.js"
+  ]
+}
