@@ -1,4 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faMobile } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+
 
 function MentionsLegales() {
   return (
@@ -21,14 +27,12 @@ function MentionsLegales() {
           </h2>
           <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-              <p className="title fw-bold">John Doe</p>
+              <h2>John Doe</h2>
               
               {/* Adresse */}
-              <div className="d-flex">
-  <div>
-    <img src="/location-pin.png" alt="Icône Location" title="Location pin icons created by Pixel perfect - Flaticon" width="15" height="auto" />
-  </div>
-  <div className="ms-2">
+              <div className="d-flex"> 
+  <FontAwesomeIcon icon={faLocationDot} style={{ width: '15px', height: '15px' }} alt="Icône Location" />
+     <div className="ms-2">
     <address>
       40 Rue Laure Diebold 
       <div>69009 Lyon, France</div>
@@ -39,9 +43,7 @@ function MentionsLegales() {
               
              {/* Téléphone */}
              <div className="d-flex ">
-                <div>
-                  <img src="/smartphone.png" alt="Icône Téléphone" title="Smartphone icons created by Roundicons - Flaticon" width="15" height="auto" />
-                </div>
+                  <FontAwesomeIcon icon={faMobile} style={{ width: '15px', height: '15px' }} alt="Icône Mobile" /> 
                 <div className="ms-2">
                   <a href="tel:0620304050">06 20 30 40 50</a>
                 </div>
@@ -49,9 +51,7 @@ function MentionsLegales() {
               
               {/* Email */}
               <div className="d-flex">
-                <div>
-                  <img src="/email.png" alt="Icône Email" title="Email icons created by Freepik - Flaticon" width="15" height="auto"/>
-                </div>
+              <FontAwesomeIcon icon={faEnvelope} style={{ width: '15px', height: '15px' }} alt="Icône Email" /> 
                 <div className="ms-2">
                   <a href="mailto:john.doe@gmail.com"> john.doe@gmail.com</a>
                 </div>
@@ -71,16 +71,14 @@ function MentionsLegales() {
       <div className="accordion-body">
 
 
-      <p className='fw-bold'>
-        Always Data
-        </p>
+      <h2>Always Data</h2>
                 <p> 91 rue du Faubourg Saint-Honoré 
                   <div>75008 Paris</div>
                 </p>
        {/* Lien */}
        <div className="d-flex">
                 <div>
-                  <img src="/world.png" alt="Icône Monde" title="Langues icônes créées par Freepik - Flaticon" width="15" height="auto"/>
+                <FontAwesomeIcon icon={faGlobe} style={{ width: '15px', height: '15px' }} alt="Icône Globe" /> 
                 </div>
                 <div className="ms-2">
                   <a href="https://www.alwaysdata.com" target="_blank" rel="noopener noreferrer"> www.alwaysdata.com</a>
@@ -99,9 +97,7 @@ function MentionsLegales() {
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-      <p className='fw-bold'>
-        Crédits
-        </p>
+      <h2>Crédits</h2>
                 <p> Site développé par John Doe, étudiant du CEF.</p>
                 <p> Les images libres de droit sont issues du site <a href="https://pixabay.com/fr/" target="_blank" rel="noopener noreferrer"> Pixabay</a>.</p>
 
