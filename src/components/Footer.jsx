@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom'; 
 
 function Footer() {
     return (
@@ -14,9 +15,9 @@ function Footer() {
             <div>Téléphone : <a href="tel:0620304050" className='text-black'>06 20 30 40 50</a></div>
             {/* icones réseaux sociaux */}
             <div className="d-flex py-3">
-  <a href="https://www.github.com" title="Github icons created by Idealogo Studio - Flaticon" className="px-2">
+  <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="px-2">
     <img src="/github-sign.png" alt="Icône GitHub" width="40" height="auto" id='icon-sm'/>
-  </a>
+  </Link>
   <a href="https://www.x.com" title="Twitter icons created by Alfredo Creates - Flaticon"className="px-2">
     <img src="/twitter-sign.png" alt="Icône Twitter" width="40" height="auto" id='icon-sm'/>
   </a>
@@ -31,11 +32,11 @@ function Footer() {
           <div className="col-sm-6 col-lg-3 py-1">
             <p className="title fw-bold">Liens utiles</p>
             <ul className="list-unstyled ">
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/" className='text-black'> Accueil</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/#about" className='text-black'> À propos</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/services" className='text-black'> Services</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/contact" className='text-black'> Me contacter</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/mentionslegales" className='text-black'> Mentions Légales</a></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/" className='text-black'> Accueil</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/#about" className='text-black'> À propos</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/services" className='text-black'> Services</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/contact" className='text-black'> Me contacter</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/mentionslegales" className='text-black'> Mentions Légales</Link></li>
             </ul>
           </div>
 
@@ -43,9 +44,9 @@ function Footer() {
           <div className="col-sm-6 col-lg-3 py-1">
             <p className="title fw-bold">Mes dernières réalisations</p>
             <ul className="list-unstyled">
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/realisations" className='text-black'> Fresh Food</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/realisations" className='text-black'> Restaurant Akira</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/realisations" className='text-black'> Espace bien-être</a></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-black'> Fresh Food</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-black'> Restaurant Akira</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/realisations" className='text-black'> Espace bien-être</Link></li>
             </ul>
           </div>
 
@@ -53,9 +54,9 @@ function Footer() {
           <div className="col-sm-6 col-lg-3 py-1">
             <p className="title fw-bold">Mes derniers articles</p>
             <ul className="list-unstyled">
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/blog" className='text-black'> Coder son site en HTML/CSS</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/blog" className='text-black'> Vendre ses produits sur le web</a></li>
-              <li><span className="text-primary fw-bold">&gt;</span><a href="/blog" className='text-black'> Se positionner sur Google</a></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-black'> Coder son site en HTML/CSS</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-black'> Vendre ses produits sur le web</Link></li>
+              <li><span className="text-primary fw-bold">&gt;</span><Link to="/blog" className='text-black'> Se positionner sur Google</Link></li>
             </ul>
           
         </div>

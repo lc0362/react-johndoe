@@ -51,9 +51,9 @@ function Blog() {
   <div className="card-body">
     <h2 className="card-title">Coder son site en HTML/CSS</h2>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Lire la suite</a>
+    <a href="#" className="btn btn-primary">Lire la suite</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Publié le 22 aout 2022
   </div>
 </div>
@@ -68,9 +68,9 @@ function Blog() {
   <div className="card-body">
     <h2 className="card-title">Vendre ses produits sur le web</h2>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Lire la suite</a>
+    <a href="#" className="btn btn-primary">Lire la suite</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Publié le 20 aout 2022
   </div>
 </div>
@@ -85,9 +85,9 @@ function Blog() {
   <div className="card-body">
     <h2 className="card-title">Se positionnersur Google</h2>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Lire la suite</a>
+    <a href="#" className="btn btn-primary">Lire la suite</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Publié le 1 aout 2022
   </div>
 </div>
@@ -102,9 +102,9 @@ function Blog() {
   <div className="card-body">
     <h2 className="card-title">Coder en responsive design</h2>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Lire la suite</a>
+    <a href="#" className="btn btn-primary">Lire la suite</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Publié le 31 juillet 2022
   </div>
 </div>
@@ -119,9 +119,9 @@ function Blog() {
   <div className="card-body">
     <h2 className="card-title">Techniques de référencement</h2>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Lire la suite</a>
+    <a href="#" className="btn btn-primary">Lire la suite</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Publié le 30 juillet 2022
   </div>
 </div>
@@ -131,14 +131,14 @@ function Blog() {
       <div className="card w-100" style={{ width: '18rem' }}>
   <img src="/blog/technos.png" 
        className="card-img-top" 
-       alt="Photo d'un ordinateur fixe, portable et d'une tablette"
+       alt="Mosaique de logos"
        title="Apprendre à coder" />
   <div className="card-body">
     <h2 className="card-title">Apprendre à coder</h2>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Lire la suite</a>
+    <a href="#" className="btn btn-primary">Lire la suite</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Publié le 12 juillet 2022
   </div>
 </div>
