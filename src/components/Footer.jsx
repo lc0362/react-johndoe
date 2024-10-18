@@ -1,6 +1,11 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'; 
+import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer() {
     return (
@@ -15,14 +20,16 @@ function Footer() {
             <div>Téléphone : <a href="tel:0620304050" className='text-444'>06 20 30 40 50</a></div>
             {/* icones réseaux sociaux */}
             <div className="d-flex py-3">
-  <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="px-2">
-    <img src="/github-sign.png" alt="Icône GitHub" width="40" height="auto" id='icon-sm'/>
+  <Link to="/github" title="Github icons created by Idealogo Studio - Flaticon" className="px-2 icon-sm">
+  <FontAwesomeIcon icon={faSquareGithub} style={{ width: '40px', height: '40px' }} alt="Icône GitHub"/>
   </Link>
-  <a href="https://www.x.com" title="Twitter icons created by Alfredo Creates - Flaticon"className="px-2">
-    <img src="/twitter-sign.png" alt="Icône Twitter" width="40" height="auto" id='icon-sm'/>
+
+  <a href="https://www.x.com" title="Twitter" className="px-2 icon-sm">
+  <FontAwesomeIcon icon={faSquareTwitter} style={{ width: '40px', height: '40px' }} alt="Icône Twitter"/>
   </a>
-  <a href="https://www.linkedin.com" title="LinkedIn icons created by Alfredo Creates - Flaticon"className="px-2">
-    <img src="/linkedin-sign.png" alt="Icône LinkedIn" width="40" height="auto" id='icon-sm'/>
+
+  <a href="https://www.linkedin.com" title="LinkedIn" className="px-2 icon-sm" >
+  <FontAwesomeIcon icon={faLinkedin} style={{ width: '40px', height: '40px' }} alt="Icône LinkedIn"/>
   </a>
 </div>
 

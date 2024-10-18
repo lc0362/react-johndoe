@@ -3,6 +3,7 @@
 ## Prérequis
 - Node.js 
 - npm 
+- Font Awesome (version 6)
 
 
 # Getting Started with Create React App

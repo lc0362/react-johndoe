@@ -1,5 +1,8 @@
 import React from 'react';
 import Map from '../components/Map';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faMobile } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
   return (
@@ -42,7 +45,7 @@ function Contact() {
              
 
               <div className="py-3 px-2">
-                <h2 className="fw-bold text-1e1e1e" id="form">
+                <h2 className="text-1e1e1e" id="form">
                   Formulaire de contact
                 </h2>
                 <div className="bg-primary" style={{ height: '2px' }}></div>
@@ -83,22 +86,14 @@ function Contact() {
             {/* Bloc coordonnées */}
             <div className="col-md-6">
               <div className="py-3 px-2">
-                <h2 className="fw-bold text-1e1e1e" id="form">
+                <h2 className="text-1e1e1e" id="form">
                   Mes coordonnées
                 </h2>
                 <div className="bg-primary" style={{ height: '2px' }}></div>
 
                 {/* Adresse */}
                 <div className="d-flex mt-3">
-                  <div>
-                    <img
-                      src="/location-pin.png"
-                      alt="Icône Location"
-                      title="Location pin icons created by Pixel perfect - Flaticon"
-                      width="15"
-                      height="auto"
-                    />
-                  </div>
+                <FontAwesomeIcon icon={faLocationDot} style={{ width: '15px', height: '15px' }} alt="Icône Location" />   
                   <div className="ms-2">
                     <address>
                       40 Rue Laure Diebold, 69009 Lyon, France
@@ -108,16 +103,8 @@ function Contact() {
 
                 {/* Téléphone */}
                 <div className="d-flex">
-                  <div>
-                    <img
-                      src="/smartphone.png"
-                      alt="Icône Téléphone"
-                      title="Smartphone icons created by Roundicons - Flaticon"
-                      width="15"
-                      height="auto"
-                    />
-                  </div>
-                  <div className="ms-2">
+                  <FontAwesomeIcon icon={faMobile} style={{ width: '15px', height: '15px' }} alt="Icône Mobile" />   
+                   <div className="ms-2">
                     <a href="tel:0620304050" className="text-444">
                       06 20 30 40 50
                     </a>
