@@ -22,7 +22,7 @@ function Realisations() {
 
   return (
     <div>
-      <section 
+      <div 
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
@@ -32,7 +32,7 @@ function Realisations() {
           color: 'white'
         }}
       >
-      </section>
+      </div>
 
       <h1 className='text-uppercase text-center my-3'>Portfolio</h1>
       <p className='text-center '>Voici quelques-unes de mes réalisations.</p>
@@ -50,9 +50,9 @@ function Realisations() {
   <div className="card-body">
     <h2 className="card-title">Fresh food</h2>
     <p className="card-text">Réalisation d'un site avec commande en ligne.</p>
-    <a href="#" class="btn btn-outline-primary">Voir</a>
+    <a href="#" className="btn btn-outline-primary">Voir</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Site réalisé avec PHP et MySQL
   </div>
 </div>
@@ -67,9 +67,9 @@ function Realisations() {
   <div className="card-body">
     <h2 className="card-title">Restaurant Akira</h2>
     <p className="card-text">Réalisation d'un site vitrine.</p>
-    <a href="#" class="btn btn-outline-primary">Voir</a>
+    <a href="#" className="btn btn-outline-primary">Voir</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Site réalisé avec WordPress
   </div>
 </div>
@@ -84,9 +84,9 @@ function Realisations() {
   <div className="card-body">
     <h2 className="card-title">Espace bien-être</h2>
     <p className="card-text">Réalisation d'un site vitrine pour un patricien de bien-être.</p>
-    <a href="#" class="btn btn-outline-primary">Voir</a>
+    <a href="#" className="btn btn-outline-primary">Voir</a>
   </div>
-  <div class="card-footer">
+  <div className="card-footer">
     Site réalisé avec PHP et MySQL
   </div>
 </div>
