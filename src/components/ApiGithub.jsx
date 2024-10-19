@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function ApiGithub() {
-  const [users, setUsers] = useState({}); // Utilisez un objet vide au lieu d'un tableau pour initialiser
+  const [users, setUsers] = useState({}); 
 
   const getUsers = async () => {
     try {
@@ -14,7 +14,7 @@ export default function ApiGithub() {
   };
 
   useEffect(() => {
-    getUsers(); // Appel de la fonction une fois lors du montage du composant
+    getUsers(); 
   }, []);
 
   return (

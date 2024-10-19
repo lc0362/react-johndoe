@@ -1,15 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'; 
-import Header from './components/Header';  
-import Footer from './components/Footer';  
-import Home from './pages/Home'; 
-import Blog from './pages/Blog';  
-import Contact from './pages/Contact';  
-import MentionsLegales from './pages/MentionsLegales';  
-import Realisations from './pages/Realisations';  
-import Services from './pages/Services';  
-import GitHub from './pages/GitHub';  
-import ScrollToTopButton from './components/ScrollToTopButton';
+import Header from './components/Header.jsx';  
+import Footer from './components/Footer.jsx';  
+import Home from './pages/Home.jsx'; 
+import Blog from './pages/Blog.jsx';  
+import Contact from './pages/Contact.jsx';  
+import MentionsLegales from './pages/MentionsLegales.jsx';  
+import Realisations from './pages/Realisations.jsx';  
+import Services from './pages/Services.jsx';  
+import GitHub from './pages/GitHub.jsx';  
+import ScrollToTopButton from './components/ScrollToTopButton.jsx';
 
 import './App.css';
 
