@@ -1,5 +1,6 @@
 {
   "name": "test-app",
+  "homepage": "https://lc0362.github.io/react-johndoe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
